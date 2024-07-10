@@ -50,7 +50,7 @@ def main():
     # Lire les données du fichier .qif
     data = read_qif(args.qif_file)
 
-    # Créer des lignes pour le DataFrame
+    # Creer des lignes pour le DataFrame
     rows = create_rows(data)
 
     # Colonnes du DataFrame
